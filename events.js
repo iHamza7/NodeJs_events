@@ -6,7 +6,7 @@ MyEmitter.on("NewSale", () => {
   console.log("this is new sale");
 });
 MyEmitter.on("NewSale", () => {
-  console.log("Customer Name: Ham khan");
+  console.log("Customer Name: Hamz khan");
 });
 
 MyEmitter.emit("NewSale");
