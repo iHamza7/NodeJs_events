@@ -33,7 +33,7 @@ server.on("request", (req, res) => {
 });
 
 server.on("request", (req, res) => {
-  console.log("another w received 😍");
+  console.log("another reques received 😍");
 });
 
 server.on("close", () => {
